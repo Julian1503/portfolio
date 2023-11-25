@@ -1,3 +1,6 @@
+import bwmap from "./backgrounds/bw-map.jpeg"
+import worldmap from "./backgrounds/world-map.png"
+
 import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -36,4 +39,6 @@ export {
   reactjs,
   tailwind,
   typescript,
+  bwmap,
+  worldmap
 };
