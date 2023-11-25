@@ -1,6 +1,7 @@
 import {BrowserRouter} from "react-router-dom";
 import {About, Contact, Experience, Hero, Navbar, Tech} from "./components";
 import Projects from "./components/Projects";
+import React from "react";
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
                   <Navbar />
                   <Hero />
               </div>
-              <div>
+              <div className="bg-about bg-cover bg-center bg-no-repeat">
                   <About />
               </div>
               <div>
