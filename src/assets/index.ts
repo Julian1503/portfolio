@@ -20,9 +20,14 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import postgresql from "./tech/Postgresql_elephant.svg.png"
+import java from "./tech/java.png"
+import net from "./tech/net.png"
+import maven from "./tech/maven.png"
 export {
   logo,
   backend,
+  postgresql,
   creator,
   mobile,
   web,
@@ -40,5 +45,8 @@ export {
   tailwind,
   typescript,
   bwmap,
-  worldmap
+  worldmap,
+  net,
+  java,
+  maven
 };
