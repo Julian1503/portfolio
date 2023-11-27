@@ -10,10 +10,8 @@ import github from "./icons/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
@@ -25,6 +23,8 @@ import java from "./tech/java.png"
 import net from "./tech/net.png"
 import maven from "./tech/maven.png"
 import spring from "./tech/spring.png"
+import oracle from "./tech/oracle.png"
+import sqlserver from "./tech/sqlserver.png"
 import live from "./live.png"
 import liveHover from "./live-hover.png"
 import download from "./icons/download.png"
@@ -44,10 +44,8 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
   git,
-  html,
   javascript,
   mongodb,
   nodejs,
@@ -68,5 +66,7 @@ export {
   mdevz,
   send,
   sendHover,
-  spring
+  spring,
+  oracle,
+  sqlserver
 };

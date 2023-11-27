@@ -1,14 +1,12 @@
 import {
-    css,
     docker,
-    git,
-    html, java,
+    git, java,
     javascript,
     maven, mdevz,
     net,
-    nodejs,
+    nodejs, oracle,
     postgresql,
-    reactjs, sovos, spring,
+    reactjs, sovos, spring, sqlserver,
     tailwind,
     typescript
 } from "../assets";
@@ -30,14 +28,6 @@ export const navLinks = [
 
 export const technologies = [
     {
-        name: 'HTML 5',
-        icon: html,
-    },
-    {
-        name: 'CSS 3',
-        icon: css,
-    },
-    {
         name: 'JavaScript',
         icon: javascript,
     },
@@ -58,18 +48,6 @@ export const technologies = [
         icon: nodejs,
     },
     {
-        name: 'postgresql',
-        icon: postgresql,
-    },
-    {
-        name: 'git',
-        icon: git,
-    },
-    {
-        name: 'docker',
-        icon: docker,
-    },
-    {
         name: 'java',
         icon: java,
     },
@@ -84,8 +62,27 @@ export const technologies = [
     {
         name:'spring',
         icon: spring
-    }
-
+    },
+    {
+        name: 'oracle',
+        icon: oracle,
+    },
+    {
+        name: 'sqlserver',
+        icon: sqlserver,
+    },
+    {
+        name: 'postgresql',
+        icon: postgresql,
+    },
+    {
+        name: 'git',
+        icon: git,
+    },
+    {
+        name: 'docker',
+        icon: docker,
+    },
 ];
 
 export const projects = [
