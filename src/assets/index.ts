@@ -32,8 +32,13 @@ import downloadHover from "./icons/downloadHover.png"
 import resume from "./icons/resume.png"
 import mdevz from "./company/mdevz.png"
 import sovos from "./company/sovos.png"
+import utn from "./company/utn.png"
+import plan111 from "./company/plan111.png"
+
 import send from "./icons/send.png"
 import sendHover from "./icons/sendHover.png"
+
+import me from "./Untitled-1.png"
 export {
   logo,
   backend,
@@ -68,5 +73,6 @@ export {
   sendHover,
   spring,
   oracle,
-  sqlserver
+  sqlserver,
+  me, utn, plan111
 };

@@ -8,7 +8,7 @@ type ExperienceCardProps = {
         title: string;
         company_name: string;
         date: string;
-        link:string;
+        link: string | null;
         icon: string;
         iconBg: string;
     };
@@ -34,13 +34,22 @@ const ExperienceCard = ({ experience } : ExperienceCardProps) => (
         }
         iconStyle={{ background: experience.iconBg }}
         icon={
-            <a target="_blank" href={experience.link} className="flex justify-center items-center w-full h-full">
-                <img
-                    src={experience.icon}
-                    alt={experience.company_name}
-                    className="w-[60%] h-[60%] object-contain"
-                />
-            </a>
+            experience.link ?
+                <a target="_blank" href={experience.link} className="flex justify-center items-center w-full h-full">
+                    <img
+                        src={experience.icon}
+                        alt={experience.company_name}
+                        className="w-[60%] h-[60%] object-contain"
+                    />
+                </a>
+                :
+                <div className="flex justify-center items-center w-full h-full">
+                    <img
+                        src={experience.icon}
+                        alt={experience.title}
+                        className="w-[65%] h-[65%] object-contain"
+                    />
+                </div>
         }>
         <div>
             <h3 className="text-jetLight text-[24px] font-bold font-beckman tracking-[2px]">

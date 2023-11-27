@@ -2,6 +2,7 @@ import {BrowserRouter} from "react-router-dom";
 import {About, Contact, Experience, Hero, Navbar, Tech} from "./components";
 import Projects from "./components/Projects";
 import React from "react";
+import Education from "./components/Education";
 
 const App = () => {
   return (
@@ -23,6 +24,12 @@ const App = () => {
                   <div className="bg-experienceLight bg-cover bg-center
             bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
                       <Experience />
+                  </div>
+              </div>
+              <div className="bg-education bg-cover bg-center bg-no-repeat
+             rounded-br-[150px]">
+                  <div className="bg-educationDark bg-cover bg-center">
+                      <Education />
                   </div>
               </div>
               <div className="relative z-0">

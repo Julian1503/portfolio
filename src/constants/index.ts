@@ -4,11 +4,11 @@ import {
     javascript,
     maven, mdevz,
     net,
-    nodejs, oracle,
+    nodejs, oracle, plan111,
     postgresql,
     reactjs, sovos, spring, sqlserver,
     tailwind,
-    typescript
+    typescript, utn
 } from "../assets";
 
 export const navLinks = [
@@ -19,6 +19,14 @@ export const navLinks = [
     {
         id: 'projects',
         title: 'Projects',
+    },
+    {
+        id: 'experience',
+        title: 'Experience',
+    },
+    {
+        id: 'education',
+        title: 'Education',
     },
     {
         id: 'contact',
@@ -186,5 +194,22 @@ export const experiences = [
         iconBg: '#333333',
         date: 'Oct 2020 - May 2021',
         link: 'https://mdevz.com/',
+    }
+];
+
+export const educations = [
+    {
+        title: 'University Programming',
+        company_name: 'National Technology University',
+        icon: utn,
+        iconBg: '#333333',
+        date: 'Apr 2018 - Oct 2023',
+    },
+    {
+        title: 'Knowledge Analyst',
+        company_name: 'Ministry of Production of Argentina',
+        icon: plan111,
+        iconBg: '#333333',
+        date: 'Mar 2017 - Apr 2018',
     }
 ];

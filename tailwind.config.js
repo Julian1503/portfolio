@@ -49,6 +49,8 @@ export default {
             "linear-gradient(135deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.2) 100%),url('/src/assets/backgrounds/white-abstract.png')",
         experienceLight:
             'linear-gradient(137deg, rgba(244,244,246,0.5) 60%, rgba(10,10,10,0.9) 60%)',
+        educationDark: "linear-gradient(135deg, rgba(233, 244, 246, 0.2) 60%, rgba(10, 10, 10, 0.2) 100%)",
+        education: 'linear-gradient(137deg, rgba(244, 244, 246, 0.7) 60%, rgba(255, 255, 255, 0.9) 60%), url(\'/src/assets/backgrounds/white-abstract.png\')',
         hero: 'linear-gradient(135deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,0.95) 60%)',
         'hero-mobile':
             'linear-gradient(137deg, rgba(244,244,246,0.8) 60%, rgba(10,10,10,1) 60%)',

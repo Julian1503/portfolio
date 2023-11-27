@@ -1,6 +1,6 @@
 import React from 'react'
 import {styles} from "../styles";
-import {bwmap, worldmap} from "../assets";
+import {bwmap, me, worldmap} from "../assets";
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -79,10 +79,12 @@ const Hero = () => {
             </a>
           </div>
             <div>
-                <div
-                    className="absolute bottom-0 ml-[50vw]
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+                <img
+                    className="absolute bottom-0 ml-[40vw]
+            lg:ml-[45vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
+                    src={me}
+                    alt="me"
                 />
             </div>
         </section>
