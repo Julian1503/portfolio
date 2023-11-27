@@ -7,7 +7,7 @@ const App = () => {
   return (
       <BrowserRouter>
           <div>
-              <div className="relative z-0">
+              <div className="relative z-1 overflow-x-hidden">
                   <Navbar />
                   <Hero />
               </div>
@@ -18,12 +18,14 @@ const App = () => {
                   <Tech />
               </div>
               <Projects/>
-              <div>
-                  <div>
+              <div className="bg-experience bg-cover bg-center bg-no-repeat
+            rounded-tl-[150px] rounded-br-[150px]">
+                  <div className="bg-experienceLight bg-cover bg-center
+            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
                       <Experience />
                   </div>
               </div>
-              <div>
+              <div className="relative z-0">
                   <Contact />
               </div>
           </div>
