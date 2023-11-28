@@ -38,7 +38,7 @@ import plan111 from "./company/plan111.png"
 import send from "./icons/send.png"
 import sendHover from "./icons/sendHover.png"
 
-import me from "./Untitled-1.png"
+import me from "./me.png"
 export {
   logo,
   backend,
