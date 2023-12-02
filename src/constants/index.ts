@@ -204,11 +204,11 @@ export const projects = [
                 color: 'green-500 hover:bg-green-700',
             },
             {
-                name: '.NET Framework',
+                name: '.NET Core',
                 color: 'red-500 hover:bg-red-700',
             },
             {
-                name: 'Entity Framework',
+                name: 'Entity Framework Core',
                 color: 'pink-500 hover:bg-pink-700',
             },
         ],
