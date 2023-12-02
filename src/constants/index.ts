@@ -96,69 +96,124 @@ export const technologies = [
 export const projects = [
     {
         id: 'project-1',
-        name: 'KomiKult',
-        description: 'A comic characters list app that displays Marvel characters.',
+        name: 'GYMNASIUM',
+        description: 'A portal to note down your daily workout routine.',
         tags: [
             {
-                name: 'react',
-                color: 'blue-text-gradient',
+                name: 'React.js',
+                color: 'blue-500 hover:bg-blue-700',
             },
             {
-                name: 'mongodb',
-                color: 'green-text-gradient',
+                name: 'Redux',
+                color: 'purple-500 hover:bg-purple-700',
             },
             {
-                name: 'tailwind',
-                color: 'pink-text-gradient',
+                name: 'Postgresql',
+                color: 'green-500 hover:bg-green-700',
+            },
+            {
+                name: 'MUI',
+                color: 'pink-500 hover:bg-pink-700',
+            },
+            {
+                name: 'JAVA',
+                color: 'red-500 hover:bg-red-700',
+            },
+            {
+                name: 'Springboot',
+                color: 'blue-500 hover:bg-blue-700',
             },
         ],
-        image: 'https://i.imgur.com/5XZQq8O.png',
-        repo: 'https://github.com/shaqdeff/KomiKult',
-        demo: 'https://shaqdeff.github.io/KomiKult/',
+        image: 'https://i.imgur.com/Zc0AjCO.png',
+        repo: ['https://github.com/Julian1503/gym-app', 'https://github.com/Julian1503/gym-app-backend'],
+        demo: 'https://gymansiumapp.netlify.app',
     },
     {
         id: 'project-2',
-        name: 'KomiKult',
-        description: 'A comic characters list app that displays Marvel characters.',
+        name: 'XCommerce',
+        description: 'A Windows Form application to manage a store or a bar.',
         tags: [
             {
-                name: 'react',
-                color: 'blue-text-gradient',
+                name: 'Windows Form',
+                color: 'blue-500 hover:bg-blue-700',
             },
             {
-                name: 'mongodb',
-                color: 'green-text-gradient',
+                name: 'C#',
+                color: 'purple-500 hover:bg-purple-700',
             },
             {
-                name: 'tailwind',
-                color: 'pink-text-gradient',
+                name: 'Microsoft SQL Server',
+                color: 'green-500 hover:bg-green-700',
             },
+            {
+                name: '.NET Framework',
+                color: 'red-500 hover:bg-red-700',
+            },
+            {
+                name: 'Entity Framework',
+                color: 'pink-500 hover:bg-pink-700',
+            }
         ],
-        image: 'https://i.imgur.com/5XZQq8O.png',
-        repo: 'https://github.com/shaqdeff/KomiKult',
-        demo: 'https://shaqdeff.github.io/KomiKult/',
+        image: 'https://i.imgur.com/2sr5iaj.png',
+        repo: ['https://github.com/Julian1503/Proyect-XCommerce'],
     },
     {
         id: 'project-3',
-        name: 'KomiKult',
-        description: 'A comic characters list app that displays Marvel characters.',
+        name: 'Construction Manager',
+        description: 'An application to manage a construction company.',
         tags: [
             {
-                name: 'react',
-                color: 'blue-text-gradient',
+                name: 'WPF',
+                color: 'blue-500 hover:bg-blue-700',
             },
             {
-                name: 'mongodb',
-                color: 'green-text-gradient',
+                name: 'C#',
+                color: 'purple-500 hover:bg-purple-700',
             },
             {
-                name: 'tailwind',
-                color: 'pink-text-gradient',
+                name: 'Microsoft SQL Server',
+                color: 'green-500 hover:bg-green-700',
+            },
+            {
+                name: '.NET Framework',
+                color: 'red-500 hover:bg-red-700',
+            },
+            {
+                name: 'Entity Framework',
+                color: 'pink-500 hover:bg-pink-700',
+            }
+        ],
+        image: 'https://i.imgur.com/7wGJoI8.jpg',
+        repo: ['https://github.com/Julian1503/Project-ConstructionManagement-APIREST', 'https://github.com/Julian1503/Project-ConstructionManagement-WPF'],
+    },
+    {
+        id: 'project-4',
+        name: 'MeetUp',
+        description: 'An APP to manage events.',
+        tags: [
+            {
+                name: 'Xamarin.Forms',
+                color: 'blue-500 hover:bg-blue-700',
+            },
+            {
+                name: 'C#',
+                color: 'purple-500 hover:bg-purple-700',
+            },
+            {
+                name: 'Microsoft SQL Server',
+                color: 'green-500 hover:bg-green-700',
+            },
+            {
+                name: '.NET Framework',
+                color: 'red-500 hover:bg-red-700',
+            },
+            {
+                name: 'Entity Framework',
+                color: 'pink-500 hover:bg-pink-700',
             },
         ],
-        image: 'https://i.imgur.com/5XZQq8O.png',
-        repo: 'https://github.com/shaqdeff/KomiKult',
-        demo: 'https://shaqdeff.github.io/KomiKult/',
+        image: 'https://i.imgur.com/TDkMm7n.png',
+        repo: ['https://github.com/Julian1503/Xamarin.Forms-Event-Project-with-local-API']
     }
 ];
 
