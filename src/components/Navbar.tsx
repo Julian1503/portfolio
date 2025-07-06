@@ -23,7 +23,7 @@ const Navbar = () => {
                     <img
                         src={logo}
                         alt="logo"
-                        className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
+                        className="sm:w-12 sm:h-12 w-11 h-11 object-contain"
                     />
                     <p className="text-[21px] uppercase font-medium font-mova text-french">Julian Delgado</p>
                 </Link>
@@ -43,8 +43,8 @@ const Navbar = () => {
                 <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
                     {toggle ? (
                         <div
-                            className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
+                            className={`p-6 bg-flashWhite opacity-[0.98] absolute
+                top-0 left-0 w-screen h-screen z-10 menu ${
                                 toggle ? 'menu-open' : 'menu-close'
                             }`}>
                             <div className="flex justify-end">
