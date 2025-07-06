@@ -126,8 +126,8 @@ const ContactContent = () => {
                 className="live-demo flex justify-center sm:gap-4
             gap-3 sm:text-[20px] text-[16px] text-timberWolf
             font-bold font-beckman items-center py-5
-            whitespace-nowrap sm:w-[130px] sm:h-[50px]
-            w-[100px] h-[45px] rounded-[10px] bg-night
+            whitespace-nowrap sm:w-32 sm:h-12
+            w-28 h-11 rounded-[10px] bg-night
             hover:bg-battleGray hover:text-eerieBlack
             transition duration-[0.2s] ease-in-out"
                 onMouseOver={() => {
@@ -142,8 +142,8 @@ const ContactContent = () => {
               <img
                   src={send}
                   alt="send"
-                  className="contact-btn sm:w-[26px] sm:h-[26px]
-              w-[23px] h-[23px] object-contain"
+                  className="contact-btn sm:w-6 sm:h-6
+              w-5 h-5 object-contain"
               />
             </button>
           </form>

@@ -35,8 +35,8 @@ const ProjectCard = ({
             variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
             className={`relative ${
                 active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
-            } flex items-center justify-center min-w-[170px] 
-      h-[420px] cursor-pointer card-shadow`}
+            } flex items-center justify-center sm:min-w-[170px]
+      min-w-[10rem] sm:h-[420px] h-80 cursor-pointer card-shadow`}
             onClick={() => handleClick(id)}>
             <div
                 className="absolute top-0 left-0 z-10 bg-jetLight
@@ -51,7 +51,7 @@ const ProjectCard = ({
             {active !== id ? (
                 <div className="flex items-center justify-start pr-[4.5rem]">
                     <h3
-                        className="font-extrabold font-beckman uppercase w-[200px] h-[30px]
+                        className="font-extrabold font-beckman uppercase w-full
         whitespace-nowrap sm:text-[27px] text-[18px] text-timberWolf tracking-[1px]
         absolute z-0 lg:bottom-[7rem] lg:rotate-[-90deg] lg:origin-[0,0]
         leading-none z-20">
@@ -97,8 +97,8 @@ const ProjectCard = ({
                                 className="live-demo flex justify-between
               sm:text-[16px] text-[14px] text-timberWolf
               font-bold font-beckman items-center py-5 pl-2 pr-3
-              whitespace-nowrap gap-1 sm:w-[138px] sm:h-[50px]
-              w-[125px] h-[46px] rounded-[10px] glassmorphism
+              whitespace-nowrap gap-1 sm:w-36 sm:h-12
+              w-32 h-11 rounded-[10px] glassmorphism
               sm:mt-[22px] mt-[16px] hover:bg-battleGray
               hover:text-eerieBlack transition duration-[0.2s]
               ease-in-out"
@@ -116,8 +116,8 @@ const ProjectCard = ({
                                 <img
                                     src={live}
                                     alt="live"
-                                    className="btn-icon sm:w-[34px] sm:h-[34px]
-                  w-[30px] h-[30px] object-contain"
+                                    className="btn-icon sm:w-8 sm:h-8
+                  w-7 h-7 object-contain"
                                 />
                                 LIVE DEMO
                             </button>
